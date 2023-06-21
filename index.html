@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f324db610c.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav">
+
+            <h1>Incubyte</h1>
+
+            <div class="links">
+                <ul>
+                    <li><a href="/">Our Solution</a></li>
+                    <li><a href="/"> Quick Turnaround </a></li>
+                    <li><a href="/">Quality Assurance</a></li>
+                    <li><a href="/">Our Advantages</a></li>
+                    <li><a href="/">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="hidden">
+                <div class="dropdown2">
+                    <button onclick="myFunction2()" class="dropbtn2"><i class="fa-solid fa-bars"></i></button>
+                    <div id="myDropdown2" class="dropdown-content2">
+                        <a href="#about-us">Our Solution</a>
+                        <a href="#us">Quick Turnaround</a>
+                        <a href="#visa-cat-loc">Quality Assurance</a>
+                        <a href="#immg-to">Our Advantages</a>
+                        <a href="#contactus">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main">
+        <div class="ellipse-container">
+            <div class="ellipse-top"></div>
+            <div class="ellipse-left"></div>
+            <div class="ellipse-right"></div>
+            <div class="head">
+                <h1>Welcome to <span class="name"> Incubyte</span> </h1>
+                <span>Building bridges to success in the ecosystem </span>
+            </div>
+
+            <div class="circle">
+
+            </div>
+        </div>
+
+        <div class="about">
+            <div class="about-in">
+                <h1>About Us</h1>
+                <span class="about-txt">
+                    With over 3 years of experience, we at Incubyte specialize in setting up captive development centers
+                    for
+                    growing startups, addressing key challenges and providing tailor-made solutions for your business
+                    needs
+                </span>
+
+            </div>
+        </div>
+
+        <div class="exp">
+            <h1>Our Experience</h1>
+            <div class="exp-card">
+                <div class="exp-bar">
+                    <h1>Hiring</h1>
+                    <span>
+                        Leveraging our deep understanding of the talent landscape, we devise effective hiring strategies
+                        to attract the best tech professionals.
+                    </span>
+                </div>
+                <div class="exp-bar">
+                    <h1>Human Resource Management</h1>
+                    <span>
+                        We ensure a healthy and productive work environment by implementing efficient HR practices
+                        tailored to the unique needs of your startup.
+                    </span>
+                </div>
+                <div class="exp-bar">
+                    <h1>Taxation</h1>
+                    <span>
+                        Our team navigates through the complexities of the tax system, ensuring compliance while
+                        optimizing financial efficiency.
+                    </span>
+                </div>
+                <div class="exp-bar">
+                    <h1>Regulatory Duidance</h1>
+                    <span>
+                        We stay abreast of the ever-changing regulatory landscape, providing timely advice to ensure
+                        your startup's operations stay within legal boundaries
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="success">
+            <div class="ellipse-top-success">
+                <h1>Success Stories</h1>
+                <span class="success-text">
+                    Over the years, we have helped numerous startups successfully establish their captive development
+                    centers. Join the roster of our successful collaborations
+                </span>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h1>Ready to Scale Up</h1>
+            <span>Experience the Incubyte Advantages today. Let us help you navigate the challenges and scale up your
+                operations smoothly and efficiently.</span>
+    
+            <a class="contact-btn" href="/">Contact Us</a>
+        </div>
+    </div>
+
+    
+
+<script>
+    var slideIndex = 0;
+showSlides();
+console.log("hh");
+function showSlides() {
+  var slides = document.getElementsByClassName("slide");
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {
+    slideIndex = 1;
+  }
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+
+</html>
